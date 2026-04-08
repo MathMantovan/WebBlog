@@ -1,0 +1,6 @@
+C:\PessoalDev\Blog\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\PessoalDev\Blog\obj\Debug\net9.0\Blog.GeneratedMSBuildEditorConfig.editorconfig
+C:\PessoalDev\Blog\obj\Debug\net9.0\Blog.AssemblyInfoInputs.cache
+C:\PessoalDev\Blog\obj\Debug\net9.0\Blog.AssemblyInfo.cs
+C:\PessoalDev\Blog\obj\Debug\net9.0\Blog.csproj.CoreCompileInputs.cache
+C:\PessoalDev\Blog\obj\Debug\net9.0\Blog.MvcApplicationPartsAssemblyInfo.cache
