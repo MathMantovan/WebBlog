@@ -87,5 +87,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blog.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "v1/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

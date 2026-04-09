@@ -15,7 +15,7 @@ namespace Blog.Data
         // public DbSet<UserRole> UserRoles { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlServer("Server=tcp:storagecertificate.database.windows.net,1433;Initial Catalog=BlogBalta;Persist Security Info=False;User ID=CloudSAc2d658cd;Password=Matheus@dani01;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+            => options.UseSqlServer("Server=localhost,1433;Database=balta;User ID=sa;Password=Matheus@dani01;TrustServerCertificate=True");
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

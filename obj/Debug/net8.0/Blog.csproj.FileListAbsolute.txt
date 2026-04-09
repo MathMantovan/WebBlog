@@ -138,3 +138,12 @@ C:\PessoalDev\Blog\obj\Debug\net8.0\refint\Blog.dll
 C:\PessoalDev\Blog\obj\Debug\net8.0\Blog.pdb
 C:\PessoalDev\Blog\obj\Debug\net8.0\Blog.genruntimeconfig.cache
 C:\PessoalDev\Blog\obj\Debug\net8.0\ref\Blog.dll
+C:\PessoalDev\Blog\obj\Debug\net8.0\Blog.sourcelink.json
+C:\PessoalDev\Blog\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\PessoalDev\Blog\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\PessoalDev\Blog\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\PessoalDev\Blog\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\PessoalDev\Blog\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\PessoalDev\Blog\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\PessoalDev\Blog\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\PessoalDev\Blog\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
