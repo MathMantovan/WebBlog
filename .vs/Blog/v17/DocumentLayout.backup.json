@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\PessoalDev\\Blog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|c:\\pessoaldev\\blog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|c:\\pessoaldev\\blog\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|c:\\pessoaldev\\blog\\data\\blogdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|solutionrelative:data\\blogdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|c:\\pessoaldev\\blog\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|c:\\pessoaldev\\blog\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|solutionrelative:configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|c:\\pessoaldev\\blog\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|c:\\pessoaldev\\blog\\data\\blogdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|solutionrelative:data\\blogdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|c:\\pessoaldev\\blog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|c:\\pessoaldev\\blog\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|solutionrelative:configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F78C85BB-18FC-D4AC-08B9-0D1BEB8AC6FE}|Blog.csproj|c:\\pessoaldev\\blog\\viewmodel\\editorcategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,42 +58,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\PessoalDev\\Blog\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
               "ToolTip": "C:\\PessoalDev\\Blog\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T19:57:32.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T19:57:32.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\PessoalDev\\Blog\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "Services\\TokenService.cs",
               "ToolTip": "C:\\PessoalDev\\Blog\\Services\\TokenService.cs",
               "RelativeToolTip": "Services\\TokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T19:43:19.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\PessoalDev\\Blog\\Configuration.cs",
               "RelativeDocumentMoniker": "Configuration.cs",
               "ToolTip": "C:\\PessoalDev\\Blog\\Configuration.cs",
               "RelativeToolTip": "Configuration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T19:38:39.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T19:38:39.9Z"
             },
             {
               "$type": "Document",
@@ -129,18 +127,17 @@
               "RelativeToolTip": "ViewModel\\EditorCategoryViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T19:38:04.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T19:38:04.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "BlogDataContext.cs",
               "DocumentMoniker": "C:\\PessoalDev\\Blog\\Data\\BlogDataContext.cs",
               "RelativeDocumentMoniker": "Data\\BlogDataContext.cs",
               "ToolTip": "C:\\PessoalDev\\Blog\\Data\\BlogDataContext.cs",
               "RelativeToolTip": "Data\\BlogDataContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBMAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T18:11:30.265Z",
               "EditorCaption": ""
@@ -155,8 +152,7 @@
               "RelativeToolTip": "Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T15:32:47.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T15:32:47.677Z"
             },
             {
               "$type": "Document",
@@ -172,16 +168,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\PessoalDev\\Blog\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\PessoalDev\\Blog\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
+              "ToolTip": "C:\\PessoalDev\\Blog\\Program.cs",
+              "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T15:13:44.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T15:13:44.583Z"
             }
           ]
         }
