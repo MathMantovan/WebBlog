@@ -12,16 +12,20 @@ namespace Blog.Services
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(Configuration.JwtKey);
+            //Console.WriteLine($"JWT KEY TokenService: [{Configuration.JwtKey}]");
+            //Console.WriteLine($"JWT KEY TokenService LENGTH: {Configuration.JwtKey.Length}");
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                    new Claim(ClaimTypes.Name, ""), //User.Identity.Name
-                    new Claim(ClaimTypes.Role, ""),//User.Identity.Role
-                    new Claim("legumes",value:"batata")
+                    new (ClaimTypes.Name, "MathMantovan"), //User.Identity.Name ESSE CLAIM PERMITE A VERIVICAÇÃO POR NOME
+                    new (ClaimTypes.Role, "admin"),//User.Identity.Role ESSE CLAIM PERMITE A VERIVICAÇÃO POR TIPO DE PERFIL
+                    new (ClaimTypes.Role, "author"),
                 }),
                 Expires = DateTime.UtcNow.AddHours(8),
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+                SigningCredentials = new SigningCredentials(
+                    new SymmetricSecurityKey(key),
+                    SecurityAlgorithms.HmacSha256Signature)
             };
 
 

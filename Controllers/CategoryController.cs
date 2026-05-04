@@ -11,8 +11,14 @@ namespace Blog.Controllers
     public class CategoryController : ControllerBase
     {
         [HttpGet("v1/categories")]
+        
         public async Task<ActionResult> GetAsync([FromServices] BlogDataContext context)
+            
         {
+            //User.Identity.IsAuthenticated(); // retorna bolleano de se esta verificado ou não
+            //User.IsInRole("admin"); // retorna o perfil do usuario
+            //User.Identity.Name; // retorna o nome do usuario
+
             var categories = await context.Categories.ToListAsync();
             return Ok(new ResultViewModel<List<Category>>(categories));
         }
