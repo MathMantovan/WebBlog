@@ -22,15 +22,41 @@ builder.Services.AddAuthentication(x =>
         ValidateIssuer = false,
         ValidateAudience = false
     };
-    //x.Events = new JwtBearerEvents
-    //{
-    //    OnAuthenticationFailed = context =>
-    //    {
-    //        Console.WriteLine("JWT ERROR:");
-    //        Console.WriteLine(context.Exception.Message);
-    //        return Task.CompletedTask;
-    //    }
-    //};
+    x.Events = new JwtBearerEvents
+    {
+        OnMessageReceived = context =>
+        {
+            var raw = context.Request.Headers["Authorization"].ToString();
+            Console.WriteLine($"OnMessageReceived RAW: [{raw}]");
+
+            if (raw.StartsWith("Bearer ", StringComparison.OrdinalIgnoreCase))
+            {
+                var tok = raw.Substring(7).Trim();
+                // log char codes to detect look-alike dots
+                var codes = string.Join(" ", tok.Take(60).Select(c => ((int)c).ToString("X2")));
+                Console.WriteLine($"OnMessageReceived CHARS(hex): {codes}");
+                Console.WriteLine($"OnMessageReceived DOTS count: {tok.Count(c => c == '.')}");
+                context.Token = tok;
+            }
+            return Task.CompletedTask;
+        },
+        OnAuthenticationFailed = context =>
+        {
+            Console.WriteLine($"JWT AUTH FAILED: {context.Exception.Message}");
+            return Task.CompletedTask;
+        },
+        OnTokenValidated = context =>
+        {
+            Console.WriteLine($"JWT TOKEN VALIDO - Usuario: {context.Principal?.Identity?.Name}");
+            return Task.CompletedTask;
+        },
+        OnChallenge = context =>
+        {
+            Console.WriteLine($"JWT CHALLENGE - Error: {context.Error}");
+            Console.WriteLine($"JWT CHALLENGE - AuthenticateFailure: {context.AuthenticateFailure?.Message}");
+            return Task.CompletedTask;
+        }
+    };
 });
 
 builder.Services.AddControllers()
@@ -40,8 +66,8 @@ builder.Services.AddControllers()
     });
 builder.Services.AddDbContext<BlogDataContext>();
 builder.Services.AddTransient<TokenService>(); //sempre que eu usar vai criar uma nova instancia
-//builder.Services.AddScoped(); //Vai criar por transação, ou seja, se tiver mais de uma requisição. se em uma requisição eu usar 4 metodos com o toke, eu reutilizo ele 4 vezes
-//builder.Services.AddSingleton(); //um por app, vai carregar na memoria e sempre vai utilizar ele independente das requisições
+//builder.Services.AddScoped(); //Vai criar por transaï¿½ï¿½o, ou seja, se tiver mais de uma requisiï¿½ï¿½o. se em uma requisiï¿½ï¿½o eu usar 4 metodos com o toke, eu reutilizo ele 4 vezes
+//builder.Services.AddSingleton(); //um por app, vai carregar na memoria e sempre vai utilizar ele independente das requisiï¿½ï¿½es
 var app = builder.Build();
 
 app.Use(async (context, next) =>
