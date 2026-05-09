@@ -7,6 +7,8 @@ using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Configuration.AddUserSecrets<Program>();
+
 ConfigureAuthentication(builder);
 ConfigureMvc(builder);
 ConfigureService(builder);
